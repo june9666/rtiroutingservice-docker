@@ -2,7 +2,7 @@
 
 
 cp $NDDSHOME/rti_license.dat ./
-mkdir -p ./bin/ && cp $NDDSHOME/bin/rtiroutingservice ./bin/routingservice
+mkdir -p ./bin/ && cp $NDDSHOME/bin/rtiroutingservice ./bin/
 mkdir -p ./resource/scripts && cp $NDDSHOME/resource/scripts -r ./resource/
 mkdir -p ./resource/app/bin && cp $NDDSHOME/resource/app/bin -r ./resource/app
 mkdir -p ./resource/app/jre && cp $NDDSHOME/resource/app/jre -r ./resource/app
